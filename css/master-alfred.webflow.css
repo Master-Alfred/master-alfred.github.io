@@ -1454,6 +1454,10 @@ figcaption {
   display: grid;
 }
 
+.service_list-image.desktop-hidden {
+  display: none;
+}
+
 .section_benefit {
   position: relative;
   overflow: hidden;
@@ -1847,6 +1851,10 @@ figcaption {
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .service_list-image.desktop-hidden {
+    display: inline-flex;
   }
 
   .benefit_layout {
@@ -2259,6 +2267,11 @@ figcaption {
 
   .service_layout {
     text-align: center;
+  }
+
+  .service_list-container {
+    grid-column-gap: .75rem;
+    grid-row-gap: 1.25rem;
   }
 
   .benefit_grid {
