@@ -1498,6 +1498,7 @@ figcaption {
 
 .benefit_list-icon {
   width: 1.25rem;
+  line-height: 0;
 }
 
 .benefit_list {
