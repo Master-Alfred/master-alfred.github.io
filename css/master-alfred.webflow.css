@@ -1303,9 +1303,19 @@ figcaption {
   padding-bottom: 3rem;
 }
 
-.home-hero_image {
+.home-hero_image-wrapper {
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: center;
   width: 100%;
   height: 100%;
+  display: flex;
+}
+
+.home-hero_image {
+  aspect-ratio: auto;
+  object-fit: contain;
+  width: 100%;
 }
 
 .home-hero_x-mark {
