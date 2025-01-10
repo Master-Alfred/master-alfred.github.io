@@ -1304,6 +1304,7 @@ figcaption {
 }
 
 .home-hero_image-wrapper {
+  aspect-ratio: 4 / 5;
   flex-flow: column;
   justify-content: flex-end;
   align-items: center;
@@ -2115,10 +2116,6 @@ figcaption {
   .home-hero_layout {
     grid-template-columns: 1fr;
     padding-top: 4rem;
-  }
-
-  .home-hero_image-wrapper {
-    aspect-ratio: 4 / 5;
   }
 
   .about_layout {
