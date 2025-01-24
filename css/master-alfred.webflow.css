@@ -2355,6 +2355,11 @@ figcaption {
     top: -8rem;
   }
 
+  .home-hero_background.is-top {
+    height: 65%;
+    margin-top: 30%;
+  }
+
   .team10_mask {
     width: 50%;
   }
@@ -2520,11 +2525,6 @@ figcaption {
     padding: .75rem;
     bottom: 1.25rem;
     right: 1.25rem;
-  }
-
-  .home-hero_background.is-top {
-    height: 65%;
-    margin-top: 30%;
   }
 
   .team10_mask {
