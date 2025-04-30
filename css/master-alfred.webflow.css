@@ -1928,7 +1928,7 @@ figcaption {
   justify-content: center;
   align-items: center;
   width: 4rem;
-  margin-left: -.25rem;
+  margin-left: -.5rem;
   display: flex;
 }
 
