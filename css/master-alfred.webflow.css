@@ -1520,6 +1520,10 @@ figcaption {
   display: grid;
 }
 
+.benefit_grid.is-1 {
+  grid-template-columns: 1fr;
+}
+
 .benefit_list-icon {
   width: 1.25rem;
   line-height: 0;
